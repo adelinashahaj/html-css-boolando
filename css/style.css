@@ -73,7 +73,19 @@ a{
 .prodotto{
     position: relative;
 }
+.seconda-img{
+    width: 100%;
+}
+.prodotto:hover .prima-img{
+    display: none;
 
+}
+.prodotto:hover .seconda-img{
+    display: block;
+}
+.seconda-img{
+    display: none;
+}
 .cuore{
     position: absolute;
     top: 3px;
