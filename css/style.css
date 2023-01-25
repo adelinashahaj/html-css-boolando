@@ -54,3 +54,18 @@ a{
 .logo{
     width: 100px;
 }
+.container{
+    max-width: 1170px;
+    margin: 100px auto;
+}
+.colonne{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    width: calc(100% / 3);
+    padding: 20px;
+}
+.prodotto img{
+    width: 100%;
+}
