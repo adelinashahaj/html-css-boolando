@@ -65,6 +65,7 @@ a{
 .col{
     width: calc(100% / 3);
     padding: 20px;
+    padding-bottom: 60px;
 }
 .prodotto img{
     width: 100%;
@@ -100,4 +101,26 @@ a{
     display: inline-block;
 
 
+}
+.quad-verde-ultimo{
+    left: 0;
+    bottom: 50px;
+    background-color: green;
+    padding: 5px;
+    font-size: 20px;
+    position: absolute;
+    display: inline-block;
+
+
+}
+.info{
+    position: absolute;
+    top: 100%;
+}
+.prezzo{
+    color: red;
+}
+.marca{
+    color: gray;
+    font-size: 10px;
 }
